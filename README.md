@@ -21,6 +21,7 @@ Both models were trained for 10 epochs using the same network structure and the 
   - Final Validation Loss: 1.2975  
 
 LSTM performs better than vanilla RNN as expected since it is the improved version of the simple RNN architecture. Vanilla RNN structure has a vanishing gradient problem while LSTM's cell state enables it to maintain long-term dependencies more effectively than vanilla RNN. Also, both models show convergence in training and evaluation losses towards the end of the training epochs.  
+
 Based on the loss curves of the models, we can see that LSTM demostrates superior performance over the vanilla RNN model, especially in validation process.  
 
 Hence, I chose to use LSTM for the text generation task.
